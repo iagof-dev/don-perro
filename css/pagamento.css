@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Amiri';
+}
+body{
+    background: rgb(13,13,13);
+    background: -moz-linear-gradient(180deg, rgba(13,13,13,1) 0%, rgba(27,27,27,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(13,13,13,1) 0%, rgba(27,27,27,1) 100%);
+    background: linear-gradient(180deg, rgba(13,13,13,1) 0%, rgba(27,27,27,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0d0d0d",endColorstr="#1b1b1b",GradientType=1);
+}
+.comprar{
+    animation: fadeInDown;
+    animation-duration: 1s;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 350px;
+    
+}
+.voltar{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 20px;
+    justify-content: end;
+}
+.voltar:hover{
+    cursor: pointer;
+    
+}
+.menuzin{
+    display: flexbox;
+    justify-content: center;
+    background: rgb(196,196,196);
+    background: -moz-linear-gradient(180deg, rgba(196,196,196,1) 0%, rgba(164,164,164,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(196,196,196,1) 0%, rgba(164,164,164,1) 100%);
+    background: linear-gradient(180deg, rgba(196,196,196,1) 0%, rgba(164,164,164,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#c4c4c4",endColorstr="#a4a4a4",GradientType=1);
+    width: 50%;
+    height: 600px;
+    border-radius: 10px;
+}
+.coisas{
+    margin-top: 10%;
+}
+.sabores1{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+.titulotop{
+    display: flexbox;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+}
+.titulo{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Quicksand';
+    font-size: 32px;
+}
+h1{
+    font-family: 'Quicksand';
+}
+#radios{
+    font-size: 55%;
+    align-items: center;
+}
+
+.formulario{
+    display: flexbox;
+    text-align: center;
+}
+#finalbutton{
+    width: 20%;
+    margin-top: 5%;
+    background-color: #ba0404;
+    color: white;
+    box-shadow: #ba0404 1px 1px 5px;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: bold;
+    width: 150px;
+    height: 50px;
+    margin-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+#finalbutton:hover{
+    background-color: #6b0505;
+    text-decoration: underline;
+    cursor: pointer;
+    
+}
+.titulo2{
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Quicksand';
+    font-size: 20px;
+}
+.icon{
+    display: flexbox;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#valor{
+    font-weight: bold;
+}

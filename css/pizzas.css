@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Amiri';
+}
+body{
+    background: rgb(13,13,13);
+    background: -moz-linear-gradient(180deg, rgba(13,13,13,1) 0%, rgba(27,27,27,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(13,13,13,1) 0%, rgba(27,27,27,1) 100%);
+    background: linear-gradient(180deg, rgba(13,13,13,1) 0%, rgba(27,27,27,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0d0d0d",endColorstr="#1b1b1b",GradientType=1);
+}
+.comprar{
+    animation: fadeInDown;
+    animation-duration: 1s;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 350px;
+}
+.voltar{
+    display: flex;
+    margin-top: 10px;
+    justify-content: end;
+}
+.voltar:hover{
+    cursor: pointer;
+    
+}
+.menuzin{
+    display: flex;
+    justify-content: center;
+    background: rgb(196,196,196);
+    background: -moz-linear-gradient(180deg, rgba(196,196,196,1) 0%, rgba(164,164,164,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(196,196,196,1) 0%, rgba(164,164,164,1) 100%);
+    background: linear-gradient(180deg, rgba(196,196,196,1) 0%, rgba(164,164,164,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#c4c4c4",endColorstr="#a4a4a4",GradientType=1);
+    width: 50%;
+    height: 600px;
+    border-radius: 10px;
+}
+.sabores1{
+    margin-top: -30px;
+    display: flex;
+    justify-content: center;
+}
+.titulotop{
+    display: flexbox;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+}
+.titulo{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Quicksand';
+    font-size: 32px;
+}
+.formulario{
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+}
+hr{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+label{
+    font-weight: bold;
+}
+.opcoesqnt{
+    width: 30px;
+    height: 15px;
+}
+.fotoilustra{
+    display: flex;
+    width: 466px;
+    box-shadow: #303030 10px 10px 10px;
+    height: 311px;
+    margin-right: 100px;
+    margin-top: 40px;
+    margin-left: -10px;
+}

@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root{
+    --animate-delay: 5s;
+}
+body{
+    background-color: #ba0404;
+}
+*{
+    
+    scroll-behavior: smooth;
+    margin: 0;
+    font-family: 'Amiri';
+}
+.navbar{
+    display: flex;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 95px;
+    background-color: #ba0404;
+    box-shadow: #505050 10px 1px 10px;
+    
+}
+.navin{
+    display: flex;
+
+}
+.titulo{
+    display: flex;
+    font-family: 'Quicksand';
+    Color: black;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.navbar-button{
+    display: flexbox;
+    justify-content: end;
+    font-family: 'Arvo';
+    padding-left: 10px;
+    color:white;
+    text-decoration: none;
+    align-items: end;
+    
+}
+.navbar-button:hover{
+    color:#ff4242;
+    text-decoration: underline;
+    
+}
+.navbar-img{
+    padding-left: 5px;
+}
+.navbar-img:hover{
+    padding-left: 5px;
+    content: url('https://cdn.discordapp.com/attachments/889233196091342920/982639975218692166/user-hover.webp');
+}
+.menubuttons{
+    display: flex;
+    
+}
+.navbarmenu{
+    animation: fadeInDown;
+    animation-duration: 1s;
+    margin-top: 20px;
+    margin-left: 75%;
+    display: flex;
+    font-size: 25px;
+    padding: 10px;
+    color: White;
+    height: 30px;
+    text-decoration: none;
+}
+.img-pizza{
+    display: flex;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+}
+.menu{
+    display: flexbox;
+    justify-content: center;
+    background-color: #4d0803;
+    color:white;
+    width: 100%;
+    height: auto;
+}
+#menu{
+    color:white;
+    display: flexbox;
+    text-align: center;
+}
+.perro-logo{
+    width: 100px;
+    margin-top: -5px;
+}
+.logo{
+    display: flexbox;
+    margin-left: 20px;
+    justify-content: left;
+    
+}
+.iconesmenu{
+    margin-top: 25px;
+    padding: 5px;
+    width: 75%;
+    height: 160px;
+    border-radius: 12px;
+}
+.card4{
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    
+    display: inline-grid;
+    animation: fadeInDown;
+    animation-duration: 1s;
+    border-radius: 10px;
+    justify-content: center;
+    background-color: #303030;
+    width: 65%;
+    height: auto;
+    margin-top: -10px;
+    box-shadow: #202020 1px 10px 10px 10px;
+}
+.card1{
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    
+    display: inline-grid;
+    animation: fadeInDown;
+    animation-duration: 1s;
+    border-radius: 10px;
+    justify-content: center;
+    background-color: #303030;
+    width: 65%;
+    height: auto;
+    margin-top: -10px;
+    box-shadow: #202020 1px 10px 10px 10px;
+}
+.cardcontainer{
+    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 3px;
+    padding: 30px;
+    padding-bottom: 150px;
+
+}
+.card2{
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+
+    display: inline-grid;
+    animation: fadeInDown;
+    animation-duration: 1s;
+    border-radius: 10px;
+    justify-content: center;
+    background-color: #303030;
+    width: 65%;
+    height: auto;
+    box-shadow: #202020 1px 10px 10px 10px;
+}
+.card3{
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+
+    display: inline-grid;
+    animation: fadeInDown;
+    animation-duration: 1s;
+    border-radius: 10px;
+    justify-content: center;
+    background-color: #303030;
+    width: 65%;
+    height: auto;
+    box-shadow: #202020 1px 10px 10px 10px;
+}
+.itens button{
+    margin-bottom: 10px;
+}
+.desc{
+    margin-top: -20px;
+}
+.plau{
+    display: flex;
+    text-align: center;
+}
+.chefedon{
+    padding: 1px;
+    animation: fadeInDown;
+    display: block;
+    animation-duration: 1s;
+    width: 10%;
+    border-radius: 100px;
+    border: 3px solid white;
+}
+.titulopage{
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    width: 10%;
+    margin-left: 45%;
+
+}
+.about{
+    display: flex;
+    justify-content: center;
+}
+#about{
+    color: white;
+    background-color: #7d2923;
+}
+.chefe{
+    display: flex;
+    color: white;
+    margin-left: 0%;
+    text-align: justify;
+    padding-bottom: 50px;
+    
+}
+.cardchefe{
+    
+    display: flex;
+    padding: 70px;
+    justify-content: center;
+}
+.chefe-text{
+    animation: fadeInDown;
+    animation-duration: 1s;
+    
+    padding-left: 15px;
+}
+.creditos{
+    text-align: center;
+    background-color: #ba0404;
+}
+.creditos a{
+    font-family: 'Handlee', cursive;
+    font-weight: bold;
+    color:white;
+}
+.botoes{
+    background-color: #ba0404;
+    color: white;
+    box-shadow: #ba0404 1px 1px 5px;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: bold;
+    width: 150px;
+    height: 50px;
+    margin-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+.botoes:hover{
+    background-color: #6b0505;
+    text-decoration: underline;
+    cursor: pointer;
+    
+}
+.finalizar{
+    background-color: #ba0404;
+    color: white;
+    box-shadow: #ba0404 1px 1px 5px;
+    border-radius: 5px;
+    font-size: 13px;
+    
+    font-weight: bold;
+    width: 150px;
+    height: 50px;
+    display: flexbox;
+    
+    font-family: 'Open Sans', sans-serif;
+}
+.finalizar:hover{
+    box-shadow: #00d323 1px 1px 5px;
+    background-color:#10c500;
+    cursor: pointer;
+    text-decoration: underline;
+    
+}
+.final_pedido{
+    animation: fadeInDown;
+    animation-duration: 1s;
+    display: flex;
+    width: 100%;    
+    justify-content: end;
+    margin-bottom: 50px;
+    padding-right: 2%;
+}
+.partefinal{
+    display: flex;
+    width: 100%;
+    
+}

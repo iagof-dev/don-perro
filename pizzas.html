@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Don Perro - Pizzas</title>
+    <link rel="stylesheet" href="/css/pizzas.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+    <div class="comprar">
+        <div class="menuzin">
+            <a href="index.html"><img class="voltar" src="img/close.webp" width="32px" height="32px"/></a>
+            <div class="outromenuteste">
+            <div class="titulotop">
+                <h1 class="titulo">Don Perro</h1><br>
+            </div> 
+            
+            <!--Galeria de Fotos que vai passando-->
+                <div class="sabores1">
+                    <img id="img123" class="fotoilustra" src="img/pizzailustra.jpg">
+                <form class="formulario" action="adicionado.html">
+                    <label class="opcoes">Escolha o sabor:</label><br>
+                    <input type="radio" required class="opcoes" OnClick="foto('1');" name="sabor1">Calabresa</input><br>
+                    <input type="radio" required class="opcoes" OnClick="foto('2');" name="sabor1">Portuguesa</input><br>
+                    <input type="radio" required class="opcoes" OnClick="foto('3');" name="sabor1">Muçarela</input><br>
+                    <input type="radio" required class="opcoes" OnClick="foto('4');" name="sabor1">Marguerita</input><br>
+                    <input type="radio" required class="opcoes" OnClick="foto('5');" name="sabor1">Quatro queijos</input><br>
+                    <input type="radio" required class="opcoes" OnClick="foto('6');" name="sabor1">Frango com catupiry</input><br>
+                    <hr>
+                    <label>Escolha o meio sabor (Opcional)</label><br>
+                    <input type="radio" class="opcoes" name="sabor2" checked>Nenhum</input><br>
+                    <input type="radio" class="opcoes" name="sabor2">Calabresa</input><br>
+                    <input type="radio" class="opcoes" name="sabor2">Portuguesa</input><br>
+                    <input type="radio" class="opcoes" name="sabor2">Muçarela</input><br>
+                    <input type="radio" class="opcoes" name="sabor2">Marguerita</input><br>
+                    <input type="radio" class="opcoes" name="sabor2">Quatro queijos</input><br>
+                    <input type="radio" class="opcoes" name="sabor2">Frango com catupiry</input><br>
+                    <center><label>Quantidade:</label></center>
+                    <center><input type="number" value="0" min="1" max="5" required class="opcoesqnt"/></center>
+                    <center><input type="submit" value="Adicionar ao Carrinho" onclick=""></center>
+                    
+                </form>
+            </div>
+        
+        </div>
+        </div>
+        
+
+
+    </div>
+    <script type="text/javascript" src="js/pizzas.js"></script>
+</body>
+</html>

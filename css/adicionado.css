@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Amiri';
+}
+body{
+    background: rgb(13,13,13);
+    background: -moz-linear-gradient(180deg, rgba(13,13,13,1) 0%, rgba(27,27,27,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(13,13,13,1) 0%, rgba(27,27,27,1) 100%);
+    background: linear-gradient(180deg, rgba(13,13,13,1) 0%, rgba(27,27,27,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0d0d0d",endColorstr="#1b1b1b",GradientType=1);
+}
+h1{
+    font-family: 'Arvo';
+    color: #3adb1a;
+    font-weight: bold;
+}
+.prodadd{
+    animation: bounceIn;
+    animation-duration: 5s;
+    display: flex;
+    
+}
+h2{
+    color: grey;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+    margin-bottom: 27%;
+}

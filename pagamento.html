@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Don Perro - Finalizar Pedido</title>
+    <link rel="stylesheet" href="css/pagamento.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body onload="setar();">
+    <div class="comprar">
+        <div class="menuzin">
+            <a href="index.html"><img class="voltar" src="img/close.webp" width="32px" height="32px"/></a>
+            <div class="pagetitle">
+                <h1 class="titulo">Don Perro</h1>
+                <h2 class="titulo2">Finalizar Pedido</h2>
+            </div>
+            <div class="coisas">
+            
+            
+
+            <div class="formulario">
+                <form action="sucesso.html">
+                    <label>Forma de Pagamento:</label><br>
+                    <input id="radios" type="radio" required name="pag">Dinheiro</input>
+                    <input id="radios" type="radio" required name="pag">Cartão Crédito/Débito</input>
+                    <input id="radios" type="radio" required name="pag">Pix</input><br>
+                    <br>
+                    <br>
+                    <label class="whats">Deseja acompanhar o pedido via Whatsapp?</label><br>
+                    <input type="radio" name="whats" checked>Sim</input>
+                    <input type="radio" name="whats">Não</input>
+                    <br>
+                    <a id="valor">Valor Total: R$0,00</a> <input type="submit" id="finalbutton" value="Finalizar Pedido">
+                </form>
+                
+            </div>
+
+        </div>
+
+    </div>
+        
+
+
+    </div>
+    <script type="text/javascript" src="js/valor.js"></script>
+</body>
+</html>

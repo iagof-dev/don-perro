@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Amiri';
+}
+body{
+    background: rgb(13,13,13);
+    background: -moz-linear-gradient(180deg, rgba(13,13,13,1) 0%, rgba(27,27,27,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(13,13,13,1) 0%, rgba(27,27,27,1) 100%);
+    background: linear-gradient(180deg, rgba(13,13,13,1) 0%, rgba(27,27,27,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0d0d0d",endColorstr="#1b1b1b",GradientType=1);
+}
+
+.comprar{
+    animation: bounceIn;
+    animation-duration: 5s;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 19%;
+}
+.menuzin{
+    display: flex;
+    margin-top: 10%;
+    justify-content: center;
+    background: rgb(196,196,196);
+    background: -moz-linear-gradient(180deg, rgba(196,196,196,1) 0%, rgba(164,164,164,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(196,196,196,1) 0%, rgba(164,164,164,1) 100%);
+    background: linear-gradient(180deg, rgba(196,196,196,1) 0%, rgba(164,164,164,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#c4c4c4",endColorstr="#a4a4a4",GradientType=1);
+    width: 30%;
+    height: 200px;
+    border-radius: 10px;
+}
+.sucesso{
+    display: flexbox;
+    margin-top: 8%;
+    text-align: center;
+}
+.plow{
+    font-family: 'Arvo';
+    font-weight: bold;
+    color: #1a9715;
+
+}
+.plaw{
+    color: rgb(0, 0, 0);
+}
