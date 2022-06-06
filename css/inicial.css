@@ -123,8 +123,8 @@ body{
     border-radius: 10px;
     justify-content: center;
     background-color: #303030;
-    width: 493px;
-    height: auto;
+    width: 65%;
+    height: 493px;
     margin-top: -10px;
     box-shadow: #202020 1px 10px 10px 10px;
 }
@@ -139,8 +139,8 @@ body{
     border-radius: 10px;
     justify-content: center;
     background-color: #303030;
-    width: 493px;
-    height: auto;
+    width: 65%;
+    height: 493px;
     margin-top: -10px;
     box-shadow: #202020 1px 10px 10px 10px;
 }
@@ -164,8 +164,8 @@ body{
     border-radius: 10px;
     justify-content: center;
     background-color: #303030;
-    width: 493px;
-    height: auto;
+    width: 65%;
+    height: 493px;
     box-shadow: #202020 1px 10px 10px 10px;
 }
 .card3{
