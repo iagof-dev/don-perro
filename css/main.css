@@ -28,7 +28,7 @@ input{
     animation: rotateIn;
     animation-duration: 0.8s;
     color: black;
-    margin-top: 350px;
+    margin-top: 19%;
     display: flex;
     justify-content: center;
     justify-items: center;
@@ -37,6 +37,7 @@ input{
     width: 600px;
     height: 300px;
     box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    margin-top: 19%;
 }
 .form{
     display: flexbox;
