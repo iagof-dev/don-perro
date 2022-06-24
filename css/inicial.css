@@ -67,11 +67,11 @@ body{
 .navbarmenu{
     animation: fadeInDown;
     animation-duration: 1s;
-    margin-top: 20px;
-    margin-left: 75%;
+    margin-top: 30px;
     display: flex;
     font-size: 25px;
-    padding: 10px;
+    justify-content: end;
+    width: 100%;
     color: White;
     height: 30px;
     text-decoration: none;
